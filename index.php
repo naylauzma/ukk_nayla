@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" style="background-color: #FFA008;">
   <div class="container">
     <a class="navbar-brand" href="index.php">Aplikasi Pengaduan Masyarakat</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,9 +54,9 @@ if (isset($_GET['page'])) {
 
 
 
-<footer class="fotter py-2 bg-light">
+<footer class="fotter py-2 fixed-bottom" style="background-color: #002DAE1A;">
     <div class="container">
-        <p class="text-center">UKK RPL 2023 | NAYLA UZMA A | SMK MUTUHARJO</p>
+        <p class="text-center">UKK RPL 2023 | NAYLA UZMA ARDHIYANTO | SMK MUHAMMADIYAH 1 SUKOHARJO</p>
     </div>
 </footer>
 

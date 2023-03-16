@@ -1,5 +1,8 @@
 <?php
 session_start();
+if (empty($_SESSION['login']=='masyarakat')) {
+    header("location:../index.php");
+}
 include '../layouts/header.php';
 
 if (isset($_GET['page'])) {

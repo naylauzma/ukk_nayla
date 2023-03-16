@@ -1,6 +1,6 @@
-<footer class="fotter py-2 bg-light">
+<footer class="fotter py-2 fixed-bottom" style="background-color: #002DAE1A;">
     <div class="container">
-        <p class="text-center">UKK RPL 2023 | NAYLA UZMA A | SMK MUTUHARJO</p>
+        <p class="text-center">UKK RPL 2023 | NAYLA UZMA ARDHIYANTO | SMK MUHAMMADIYAH 1 SUKOHARJO</p>
     </div>
 </footer>
 

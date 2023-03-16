@@ -1,6 +1,10 @@
 <?php
-
+session_start();
+if (empty($_SESSION['login']=='admin' || $_SESSION['login']=='petugas' )) {
+    header("location:../index.php");
+}
 include '../layouts/header.php';
+
 
 if (isset($_GET['page'])) {
     $page= $_GET['page'];
@@ -22,7 +26,7 @@ if (isset($_GET['page'])) {
             include 'data_masyarakat.php';
             break;
 
-        default :
+        default:
             echo "Halaman Tidak Tersedia" ;
             break;
     }

@@ -1,10 +1,10 @@
 <div class="row mt-3">
     <div class="col-md-4 offset-md-4">
         <div class="card">
-            <div class="card-header">
+            <div class="card-header" style="background-color: #3967ED;">
                 LOGIN
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #98B1F6;">
                 <form action="config/aksi_login.php" method="POST">
                 <div class="mb-3">
                     <label class="form-label">Username</label>
@@ -19,11 +19,10 @@
                     <select class="form-control" name="level">
                         <option value="masyarakat">Masyarakat</option>
                         <option value="petugas">Petugas</option>
-                        <option value="admin">Admin</option>
                     </select>
                 </div>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" style="background-color: #D5DFFD;">
                 <button type="submit" name="kirim" class="btn btn-primary">LOGIN</button>
                 <a href="index.php?page=registrasi" class="m-3">Belum punya akun? Daftar disini!</a>
             </div>

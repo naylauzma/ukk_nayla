@@ -1,10 +1,10 @@
 <div class="row mt-3">
     <div class="col-md-4 offset-md-4">
         <div class="card">
-            <div class="card-header">
+            <div class="card-header" style="background-color: #3967ED;">
                 REGISTRASI
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #98B1F6;">
                 <form action="" method="POST">
                 <div class="mb-3">
                     <label class="form-label">NIK</label>
@@ -27,7 +27,7 @@
                     <input type="number" class="form-control" name="telp" placeholder="Masukan No. Telp" required>
                 </div>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" style="background-color: #D5DFFD;">
                 <button type="submit" name="kirim" class="btn btn-primary">DAFTAR</button>
                 <a href="index.php?page=login" class="m-3">Sudah punya akun? Login disini!</a>
             </div>
